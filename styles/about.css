@@ -1,0 +1,50 @@
+.main__about {
+    background: url('../imgs/about-bg.png') no-repeat center/cover;
+    height: 464px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.main__about__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    gap: 18px;
+}
+
+.main__about__title-mini {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.main__about__title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.main__about__text {
+    width: 60%;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__about__link {
+    padding: 20px;
+    background-color: #A5C926;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s ease;
+}
+
+.main__about__link:hover {
+    background-color: #FFC12C;
+}
